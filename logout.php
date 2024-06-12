@@ -1,0 +1,8 @@
+<?php
+session_unset();
+session_destroy();
+header('Location: http://localhost/AEH/index.php');
+
+
+
+?>
